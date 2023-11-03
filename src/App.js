@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 
 const URL =
-  'https://api.freecurrencyapi.com/v1/latest?base_currency=EUR'; //API avain poistettu osoitteesta
+  'https://api.freecurrencyapi.com/v1/latest?base_currency=EUR&apikey=';
 
 function App() {
   const [eur, setEur] = useState(0);
